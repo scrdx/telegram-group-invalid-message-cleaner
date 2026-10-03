@@ -1,0 +1,10 @@
+# Telegram 凭据与会话（切勿提交）
+config.json
+*.session
+*.session-journal
+
+# 生成的报告
+reports/
+
+__pycache__/
+*.pyc

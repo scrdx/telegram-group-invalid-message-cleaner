@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip --version)",
+      "Bash(python -m py_compile cleaner.py)",
+      "Bash(pip install *)",
+      "Bash(python cleaner.py --help)",
+      "Bash(python cleaner.py scan --help)",
+      "Bash(python cleaner.py delete --help)",
+      "Bash(python *)",
+      "Bash(PYTHONIOENCODING=utf-8 PYTHONUTF8=1 python -)",
+      "Bash(PYTHONIOENCODING=utf-8 PYTHONUTF8=1 timeout 120 python cleaner.py scan 1578502054 --limit 3000)",
+      "Bash(rm -f compare_two.py)",
+      "Bash(rm -f reports/scan_* reports/diagnose_*)",
+      "Bash(rm -rf __pycache__)",
+      "Bash(PYTHONIOENCODING=utf-8 PYTHONUTF8=1 python cleaner.py scan 1578502054)",
+      "Bash(echo \"EXIT=$?\")",
+      "Bash(PYTHONIOENCODING=utf-8 python -c ' *)"
+    ]
+  }
+}
